@@ -1,6 +1,6 @@
 FROM node:lts-alpine
 
-RUN apk add --no-cache make git dumb-init python openssl
+RUN apk add --no-cache make git dumb-init python3 openssl
 
 WORKDIR /wildduck
 
